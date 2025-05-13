@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/KovalevskaOlga/HW-JS-4.9/issues"
   },
-  "homepage": "https://github.com/KovalevskaOlga/HW-JS-4.9#readme",
+  "homepage": "kovalevskaolga.github.io/HW-JS-4.9/",
   "devDependencies": {
     "parcel": "^2.15.0",
     "posthtml-include": "^2.0.1"
