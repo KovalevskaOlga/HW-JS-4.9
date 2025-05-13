@@ -7,7 +7,27 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1>hello world</h1>
+    <h1 class="title">Реєстрація</h1>
+    <div class="box">
+    <form action="" class="form">
+        <label class="label" for="name">Введіть своє ім'я</label>
+        <input class="input name" type="text" name="name" id="name" placeholder="your name" required>
+
+        <label class="label" for="phone">Введіть свій номер телефону</label>
+        <input class="input phone" type="tel" name="number" value="+380 " placeholder="+380 XX XXX XXXX" id="phone" required>
+
+        <label class="label" for="email">Введіть свою електронну адресу</label>
+        <input class="input email" type="email" name="email" id="email" placeholder="@gmail" required>
+
+         <div class="btn-box">
+        <button class="save">Зберегти</button>
+        <button class="del">Видалити</button>
+    </div>
+    </form>
+    </div>
+   
+    <p class="msg-save"></p>
+    <p class="msg-del"></p>
     <script type="module" src="./index.js"></script>
 </body>
 </html>
