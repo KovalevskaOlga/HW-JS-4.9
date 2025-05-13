@@ -21,7 +21,8 @@
   },
   "homepage": "https://github.com/KovalevskaOlga/HW-JS-4.9#readme",
   "devDependencies": {
-    "parcel": "^2.15.0"
+    "parcel": "^2.15.0",
+    "posthtml-include": "^2.0.1"
   },
   "dependencies": {
     "gh-pages": "^6.3.0"
